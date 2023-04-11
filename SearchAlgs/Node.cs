@@ -12,6 +12,8 @@ namespace SearchAlgs
         public Tuple<int, int> emptyPos;
         public Node? left, right, up, down;
         public Node? parent;
+        public int cost;
+        public int depth;
 
         public Node(int[,] state, Tuple<int, int> emptyPos)
         {
